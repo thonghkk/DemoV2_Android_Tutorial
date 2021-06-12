@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Android Tutorial</string>
     <string name="txt_text_all">This Is Text ReView</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="txt_fragment_first">First Fragment</string>
+    <string name="txt_fragment_second">Second Fragment</string>
+    <string name="txt_fragment_third">Third Fragment</string>
 </resources>
