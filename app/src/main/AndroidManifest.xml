@@ -9,17 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidTutorial">
-        <activity android:name=".drag_drop_items.MainDragDrop">
+        <!-- How to handling ViewPage and TabLayout -->
+        <activity android:name=".main_fragment_demo.MainActivityForFragment">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".multiple_view_type.MainViewType">
+        <!-- Custom Load More -->
+        <activity android:name=".load_more.LoadMoreActivity" /> <!-- Custom Drag Drop -->
+        <activity android:name=".drag_drop_items.MainDragDrop"></activity> <!-- Custom ViewType -->
+        <activity android:name=".multiple_view_type.MainViewType" /> <!-- Test on Save Instance state and on Restore Instance state of Activity or fragment -->
+        <activity android:name=".MainActivity">
 
         </activity>
-        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>
